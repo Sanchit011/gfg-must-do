@@ -24,5 +24,6 @@ public:
             dq.push_back(i);
             ans[index++] = arr[dq.front()];
         }
+        
         return ans;
     }
